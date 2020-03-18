@@ -5,8 +5,6 @@
     const INDEX_URL = BASE_URL + '/api/v1/movies/'
     const POSTER_URL = BASE_URL + '/posters/'
     const dataPanel = document.getElementById('data-panel')
-    const pagination = document.getElementById('pagination')
-    const ITEM_PER_PAGE = 12
     const data = JSON.parse(localStorage.getItem('favoriteMovies')) || []
     console.log(data)
     displayDataList(data)
